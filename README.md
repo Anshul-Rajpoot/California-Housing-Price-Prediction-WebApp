@@ -71,17 +71,16 @@ This dataset contains housing information such as:
 
 ## 📂 Project Structure
 
-California-Housing-Price-Prediction-WebApp/ 
+California-Housing-Price-Prediction-WebApp/
 │
-├── app.py # Flask application
-├── main.py # ML model training script
+├── app.py                 # Flask application
+├── main.py                # ML model training script
 ├── templates/
-│ └── index.html # Frontend
-├── model.pkl # Trained model (not included)
-├── pipeline.pkl # Preprocessing pipeline (not included)
-├── README.md
+│   └── index.html         # Frontend
+├── model.pkl              # Trained model (not included)
+├── pipeline.pkl           # Preprocessing pipeline (not included)
+└── README.md
 
-yaml
 Copy code
 
 > Note: `.pkl` files are excluded because they are large binary artifacts.  
@@ -94,14 +93,12 @@ Copy code
 ### 1️⃣ Install dependencies
 pip install -r requirements.txt
 
-yaml
 Copy code
 
 OR install manually:
 
 pip install flask pandas numpy scikit-learn joblib
 
-sql
 Copy code
 
 ### 2️⃣ Train the model (first time only)
@@ -120,14 +117,12 @@ This generates:
 ### 3️⃣ Run the web app
 python app.py
 
-r
 Copy code
 
 Open in browser:
 
 http://127.0.0.1:5000/
 
-yaml
 Copy code
 
 ---
