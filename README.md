@@ -1,7 +1,7 @@
 # 🚀 California Housing Price Prediction – ML Web App
 <img width="638" height="861" alt="image" src="https://github.com/user-attachments/assets/17dcc5c6-1fb1-4b76-990c-3b8e660fec7a" />
 
-This project is an end-to-end **Machine Learning + Flask Web Application** that predicts house prices using the **California Housing Prices Dataset** from Kaggle.
+This project is an end-to-end **Machine Learning + Streamlit Web APP** that predicts house prices using the **California Housing Prices Dataset** from Kaggle.
 
 Users can enter property details (rooms, median income, population, etc.) through a simple web interface, and the app returns the predicted house price in real-time.
 
